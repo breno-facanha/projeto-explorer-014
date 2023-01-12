@@ -1,0 +1,23 @@
+{
+  "name": "projeto-explorer-014",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breno-facanha/projeto-explorer-014.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/breno-facanha/projeto-explorer-014/issues"
+  },
+  "homepage": "https://github.com/breno-facanha/projeto-explorer-014#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

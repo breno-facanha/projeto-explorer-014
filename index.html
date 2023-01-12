@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +17,7 @@
             <h1>Github Favorites</h1>
 
             <div class="search">
-                <label for="input-search">Usuário do GitHub</label>
+                <label class="sr-only" for="input-search">Usuário do GitHub</label>
                 <input id="input-search" type="text" placeholder="Usuário do Github">
                 <button>&plus;</button>
             </div>
@@ -41,12 +45,12 @@
                     <td class="repositories"> 42  </td>
                     <td class="followers"> 5 </td>
                     <td>
-                        <button>&times;</button>
+                        <button class="remove">&times;</button>
                     </td>
                 </tr>
 
                 <tr>
-                    <td>
+                    <td class="user">
 
                         <img src="https://github.com/Yagocayo.png" alt="" >
                             <a href="">
@@ -57,7 +61,7 @@
                     <td class="repositories"> 13  </td>
                     <td class="followers"> 22 </td> 
                     <td>
-                        <button>&times;</button>
+                        <button class="remove">&times;</button>
                     </td>        
                 </tr>
             </tbody>
