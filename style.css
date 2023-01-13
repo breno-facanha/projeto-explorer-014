@@ -110,9 +110,22 @@ table th:last-child {
 }
 
 table td {
-    padding: 1.5rem;
+    padding: 1.0rem;
 }
 
+table td:nth-child(2){
+    text-align: center;
+    padding: 1.0rem;
+}
+table td:nth-child(3){
+    text-align: center;
+    padding: 1.0rem;
+}
+
+table td:nth-child(4){
+    text-align: left;
+    padding: 1.5rem;
+}
 table tr:nth-child(even) {
     background: #eee;
 }
