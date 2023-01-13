@@ -8,7 +8,7 @@ export class Favorites{
 
         this.load()
 
-        GithubUser.search('alanqcb').then(user => console.log(user))
+        GithubUser.search('breno-facanha').then(user => console.log(user))
     }
 
     load() {
